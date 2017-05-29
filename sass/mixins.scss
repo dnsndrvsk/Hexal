@@ -1,0 +1,22 @@
+@mixin vertical-line-right {
+  content: "";
+  position: absolute;
+  top: 25%;
+  right: -10%;
+  display: block;
+  width: 1px;
+  height: 48%;
+  background-color: #e4e9eb;
+}
+
+@mixin vertical-line-left {
+  @include vertical-line-right();
+  right: auto;
+  left: -10%;
+}
+
+@mixin clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
