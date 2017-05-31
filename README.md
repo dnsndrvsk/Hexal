@@ -1,0 +1,1 @@
+# Hexal - Responsive & Adaptive website
