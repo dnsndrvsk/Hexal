@@ -1,1 +1,1 @@
-# Hexal - Responsive & Adaptive website
+# Hexal - Responsive Portfolio Page
